@@ -1,0 +1,29 @@
+{
+  "name": "nilfraud/php-library",
+  "description": "An official PHP library for Nilfraud.",
+  "license": "MPL-2.0",
+  "homepage": "https://www.nilfraud.com/",
+  "authors": [
+    {
+      "name": "Nilfraud Development Team",
+      "email": "development@hybula.com",
+      "homepage": "https://www.nilfraud.com/",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "support@hybula.com",
+    "forum": "https://github.com/orgs/nilfraud/discussions"
+  },
+  "require": {
+    "php": ">=7.4",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-openssl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Nilfraud\\": "src/Nilfraud/"
+    }
+  }
+}
